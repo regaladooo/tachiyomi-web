@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+background-color: rgb(255, 255, 255);}
+.button{
+    background-color: rgb(10, 4, 99);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 1.25em;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+padding: 10px 0px;
+text-align: center;
+width: 250px;
+text-decoration: none;
+box-shadow: 0px 3px 0px #8a006c;
+}
+.inicio {
+    display: block;
+    text-align: center;
+    margin-block-start: 50px;
+}
+.inicio1{
+    display: block;
+    text-align: center;
+    margin-block-start: 50px;
+    font-size: 25px;
+    color: rgb(19, 19, 255);
+    font-family: 'Bebas Neue', cursive;
+}
+.texto{
+    box-shadow: 4px 4px 4px rgb(65, 65, 65);
+    max-width: 500px;
+    width: 80%;
+    padding: 45px 20px;
+    margin: 0 auto;
+margin-top: 40px;
+border: 1px solid red;
+color: rgb(255, 0, 0);
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.parrafo{
+    font-size: 1.5rem;
+}
+html{
+    font-size: 16px;
+
+    @media screen and (max-width: 540px){
+        font-size 12px;
+    
+    }
+}
+.titulo{
+    text-align: center;
+margin-block-start: 100px;
+}
+h1{
+    background: linear-gradient(rgb(1, 18, 255),rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    color: transparent;  
+    font-size: 3rem;
+}
